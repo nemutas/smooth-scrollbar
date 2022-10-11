@@ -1,6 +1,8 @@
 # About
 
-https://nemutas.github.io/smooth-scrollbar/
+[Top](https://nemutas.github.io/smooth-scrollbar/)<br>
+[Vertical Scroll](https://nemutas.github.io/smooth-scrollbar/vertical/)<br>
+[Horizontal Scroll](https://nemutas.github.io/smooth-scrollbar/horizontal/)
 
 This repository has experimented with a combined implementation of [Smooth Scroller](https://idiotwu.github.io/smooth-scrollbar/) and [gsap](https://greensock.com/)'s [ScrollTrigger](https://greensock.com/docs/v3/Plugins/ScrollTrigger).
 
