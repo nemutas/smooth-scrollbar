@@ -1,6 +1,3 @@
-// https://greensock.com/docs/v3/Plugins/ScrollTrigger/static.scrollerProxy()
-// https://greensock.com/forums/topic/25824-simple-scrollproxy-with-smooth-scrollbar-horizontal-scroll/
-
 import Scrollbar, { ScrollbarPlugin } from 'smooth-scrollbar'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'

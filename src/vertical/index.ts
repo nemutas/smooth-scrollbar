@@ -1,5 +1,3 @@
-// https://greensock.com/docs/v3/Plugins/ScrollTrigger/static.scrollerProxy()
-
 import Scrollbar from 'smooth-scrollbar'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
