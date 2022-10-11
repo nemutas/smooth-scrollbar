@@ -1,0 +1,3 @@
+@mixin debug-line($color: red) {
+	border: 2px solid $color;
+}

@@ -1,0 +1,33 @@
+@use '../styles/mixins/utils.scss' as *;
+
+.v-section {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.v-text {
+	font-size: 5rem;
+	color: #fefefe;
+	opacity: 0;
+}
+
+.v-s1 {
+	@include debug-line(#41d1ff);
+
+	&__contents {
+		width: 50%;
+		aspect-ratio: 445 / 60;
+		background: linear-gradient(90deg, rgba(65, 209, 255, 1) 0%, rgba(255, 201, 33, 1) 50%, rgba(189, 52, 254, 1) 100%);
+		mask: url('/resources/text.svg') 50% 50% / contain no-repeat;
+	}
+}
+
+.v-s2 {
+	@include debug-line(#ffc921);
+}
+
+.v-s3 {
+	@include debug-line(#bd34fe);
+}

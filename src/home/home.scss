@@ -1,0 +1,43 @@
+@use '../styles/mixins/utils.scss' as *;
+
+.home-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5rem;
+}
+
+.home-logo {
+	width: 50%;
+	aspect-ratio: 445 / 60;
+	background: linear-gradient(90deg, rgba(65, 209, 255, 1) 0%, rgba(255, 201, 33, 1) 50%, rgba(189, 52, 254, 1) 100%);
+	mask: url('/resources/text.svg') 50% 50% / contain no-repeat;
+}
+
+.home-links {
+	display: flex;
+	flex-direction: row;
+	gap: 4rem;
+}
+
+.home-link {
+	padding: 2rem;
+	aspect-ratio: 1 / 1;
+	border: 2px solid #fefefe;
+	display: grid;
+	place-items: center;
+	transform: rotate(45deg);
+
+	color: #fefefe;
+	font-size: 3rem;
+
+	& span {
+		transform: rotate(-45deg);
+	}
+	&:last-child > span {
+		transform: rotate(45deg);
+	}
+}
